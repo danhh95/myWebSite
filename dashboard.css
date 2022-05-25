@@ -1,0 +1,51 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    text-align: left;
+}
+
+.korean-coment {
+    color: black;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.english-coment {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.sample:hover {
+    background-color: pink;
+}
+
+.higthlight {
+    -webkit-text-fill-color: white;
+    /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.type:hover {
+    background-color: pink;
+    -webkit-text-fill-color: black;
+    /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+}
+
+.type1:hover {
+    background-color: skyblue;
+    -webkit-text-fill-color: white;
+    /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.type2:hover {
+    background-color: yellowgreen;
+}

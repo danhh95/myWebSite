@@ -1,0 +1,15 @@
+
+
+/* h2{
+    font-size: 6em;
+    width: 258px;
+    color: white;
+    font-family: sans-serif;
+    margin: 30px;
+    margin-top: 0;
+    animation-name: slide;
+}
+
+@keyframes slide {
+   50% {transform: rotate(360deg);}
+} */

@@ -1,0 +1,91 @@
+/* Frame */
+
+body {
+    /* 전체페이지 색상 */
+    background-color: blanchedalmond;
+    margin: 0;
+
+}
+
+.frame {
+    /* 제일 큰 틀 */
+    /* margin: 30px 150px; */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navigator */
+.navigator {
+    padding: 8px 30px;
+    display: flex;
+    background-color: rgba(237, 245, 196, 0.849);
+    align-items: center;
+    justify-content: space-between;
+    /* 띄어쓰기 여부 */
+    opacity: 0.5;
+}
+
+li {
+    display: inline;
+    align-self: center;
+    margin: 10px;
+
+}
+
+ul {
+    display: inline;
+    align-self: center;
+}
+
+.site-name {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 700;
+    color: chocolate;
+}
+
+.nav-menu {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    /* 텍스트 굵기 정도 */
+    font-size: 20px;
+    color: orange;
+    text-decoration: none;
+}
+
+.nav-menu:hover {
+    /* 커서 올렸을 때 색상 바뀌는 거 */
+    color: brown;
+    transition: 0.5;
+}
+
+.korean-coment{
+    display: inline; 
+    vertical-align: middle;
+  }
+  @keyframes cursor{
+    0% { opacity: 0.1;}
+    100%{opacity: 0;}
+  } 
+@media screen and (max-width:700px) {
+    .navigator {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .site-name {
+        align-self: center;
+    }
+
+    .nav_menu {
+        flex-direction: column;
+        align-self: center;
+        width: 100;
+    }
+}
+
+.nav_menu ul {
+    width: 100%;
+    text-align: center;
+}

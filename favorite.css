@@ -1,0 +1,54 @@
+.favorite-section>h1 {
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    text-decoration-line: underline;
+    text-underline-position: under;
+    padding: 80px;
+}
+
+.contents {
+    display: grid;
+    place-items: center;
+    padding-bottom: 100px;
+}
+
+img {
+    object-fit: cover;
+}
+
+.fav_img {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(3, 300);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+
+}
+
+.fav_img>img:hover {
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition-duration: 0.3s;
+}
+
+@media screen and (max-width:700px) {
+    .contents {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .site-name {
+        align-self: center;
+    }
+
+    .nav_menu {
+        flex-direction: column;
+        align-self: center;
+        width: 100;
+    }
+}
+
+.nav_menu ul {
+    width: 100%;
+    text-align: center;
+}
